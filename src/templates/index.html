@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Bulker</title>
+</head>
+<body>
+
+    <h1>Image Bulker</h1>
+
+    <br>
+
+    <form action="/upload", method="post" enctype="multipart/form-data">
+
+        <label for="upload-file">Upload your file to bulk up</label>
+        <br>
+        <input type="file" name="upload-file" id="upload-file" required>
+
+        <br><br>
+
+        <label for="final-size">Final file size in bytes</label>
+        <input type="number" name="final-size" id="final-size" step="1" required>
+
+        <br><br>
+
+        <input type="submit" value="Bulk up!">
+
+    </form>
+
+    
+</body>
+</html>
