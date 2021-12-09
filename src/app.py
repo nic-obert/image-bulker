@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, send_from_directory
 
-from bulker import bulk_file
+from src.bulker import bulk_file
 
 
 app = Flask(__name__)
